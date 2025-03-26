@@ -2,7 +2,7 @@ import json
 from poke_env.player import Player
 
 # Load type chart from the JSON file
-with open('type-chart.json', 'r') as f:
+with open('../type-chart.json', 'r') as f:
     TYPE_CHART = json.load(f)
 
 # Base AI class with common functionality
